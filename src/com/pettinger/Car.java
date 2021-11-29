@@ -1,8 +1,11 @@
 package com.pettinger;
 
 import java.time.LocalDate;
+import java.util.ResourceBundle;
 
 public class Car implements Comparable<Car> {
+    private static Language language = new Language();
+    private static ResourceBundle messages = language.getMessages();
     private String licensePlate;
     private String make;
     private String model;
@@ -49,10 +52,10 @@ public class Car implements Comparable<Car> {
 
     public void validateLicensePlate(String licensePlate) {
         if (licensePlate == null) {
-            throw new NullPointerException("License Plate cannot be null");
+            throw new NullPointerException(messages.getString("license-plate-null"));
         } else if(licensePlate.length() > MAXIMUM_LICENSE_PLATE_LENGTH){
-            throw new IllegalArgumentException("License Plate cannot have more than "
-                    + MAXIMUM_LICENSE_PLATE_LENGTH + " characters.");
+            throw new IllegalArgumentException(messages.getString("license-over-max") + " " +
+                    + MAXIMUM_LICENSE_PLATE_LENGTH + " " + (messages.getString("characters")));
         }
     }
 
@@ -67,7 +70,7 @@ public class Car implements Comparable<Car> {
 
     public void validateMake(String make) {
         if (make == null) {
-            throw new NullPointerException("Make cannot be null");
+            throw new NullPointerException(messages.getString("make-null"));
         }
     }
 
@@ -82,7 +85,7 @@ public class Car implements Comparable<Car> {
 
     public void validateModel(String model) {
         if (model == null) {
-            throw new NullPointerException("Model cannot be null");
+            throw new NullPointerException(messages.getString("Model-null"));
         }
     }
 
@@ -97,22 +100,22 @@ public class Car implements Comparable<Car> {
 
     private void validateModelYear(int modelYear){
         if(modelYear < MINIMUM_MODEL_YEAR){
-            throw new IllegalArgumentException("Model Year cannot be earlier than "
+            throw new IllegalArgumentException(messages.getString("model-under-min") + " " +
                     + MINIMUM_MODEL_YEAR + ".");
         }
         else if(modelYear > MAXIMUM_MODEL_YEAR){
-            throw new IllegalArgumentException("Model year cannot be later than "
+            throw new IllegalArgumentException("model-over-max" + " " +
                     + MAXIMUM_MODEL_YEAR + ".");
         }
     }
 
     @Override
     public String toString() {
-        return "Car{" +
-                "licensePlate='" + licensePlate + '\'' +
-                ", make='" + make + '\'' +
-                ", model='" + model + '\'' +
-                ", modelYear=" + modelYear +
+        return messages.getString("car") + "{" +
+                messages.getString("license-plate") + " = " + licensePlate +
+                ", " + messages.getString("make")+ " = " + make +
+                ", " + messages.getString("model")+ " = " + model +
+                ", " + messages.getString("model-year")+ " = " +  modelYear +
                 '}';
     }
 

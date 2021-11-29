@@ -1,0 +1,47 @@
+nth,firstName,lastName,birthday,inaugurationAge-Years,inaugurationAge-Days
+1,George,Washington,1732-02-22,57,68
+2,John,Adams,1735-10-30,61,125
+3,Thomas,Jefferson,1743-04-13,57,325
+4,James,Madison,1751-03-16,57,353
+5,James,Monroe,1758-04-28,58,310
+6,John Quincy,Adams,1767-07-11,57,236
+7,Andrew,Jackson,1767-03-15,61,354
+8,Martin,Van Buren,1782-12-05,54,89
+9,William Henry,Harrison,1773-02-09,68,23
+10,John,Tyler,1790-03-29,51,6
+11,James K. ,Polk,1795-11-02,49,123
+12,Zachary,Taylor,1784-11-24,64,100
+13,Millard ,Fillmore,1800-01-07,50,183
+14,Franklin,Pierce,1804-11-23,48,101
+15,James,Buchanan,1791-04-23,65,315
+16,Abraham,Lincoln,1809-02-12,52,20
+17,Andrew,Johnson,1808-12-29,56,107
+18,Ulysses S.,Grant,1822-04-27,46,311
+19,Rutherford B. ,Hayes,1822-10-04,54,151
+20,James A.,Garfield,1831-11-19,49,105
+21,Chester A.,Arthur,1829-10-05,51,349
+22,Grover,Cleveland,1837-03-18,47,351
+23,Benjamin ,Harrison,1833-08-20,55,196
+24,Grover,Cleveland,1837-03-18,55,351
+25,William,McKinley,1843-01-29,54,34
+26,Theodore ,Roosevelt,1858-10-27,42,322
+27,William Howard,Taft,1857-09-15,51,170
+28,Woodrow,Wilson,1856-12-28,56,66
+29,Warren G.,Harding,1865-11-02,55,122
+30,Calvin,Coolidge,1872-07-04,51,29
+31,Herbert,Hoover,1874-08-10,54,206
+32,Franklin D.,Roosevelt,1882-01-30,51,33
+33,Harry S.,Truman,1884-05-08,60,339
+34,Dwight D. ,Eisenhower,1890-10-14,62,98
+35,John F.,Kennedy,1917-05-29,43,236
+36,Lyndon B.,Johnson,1908-08-27,55,87
+37,Richard,Nixon,1913-01-09,56,11
+38,Gerald,Ford,1913-07-14,61,26
+39,Jimmy,Carter,1924-10-01,52,111
+40,Ronald,Reagan,1911-02-06,69,348
+41,George H. W.,Bush,1924-06-12,64,222
+42,Bill,Clinton,1946-08-19,46,154
+43,George W.,Bush,1946-07-06,54,198
+44,Barack,Obama,1961-08-04,47,169
+45,Donald,Trump,1946-06-14,70,220
+46,Joe,Biden,1942-11-20,78,61

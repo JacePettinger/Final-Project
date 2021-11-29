@@ -1,10 +1,16 @@
 package com.pettinger;
 
-public class CarDAOFactory {
-    private static final String DAO_SOURCE = "CSV";
+public class PresidentDAOFactory {
+    /*
+    *
+    *  private static final String DAO_SOURCE = "CSV";
 
     public static CarDAO getCarDAO(){
-        CarDAO dao = null;
+    * */
+    /*
+    change car to president
+    *
+    *  CarDAO dao = null;
         switch(DAO_SOURCE){
             case "CSV":
                 dao = new CarDAOCSV();
@@ -13,10 +19,12 @@ public class CarDAOFactory {
                dao = new CarDAOXML();
                 break;
             case "MYSQL":
-              dao = new CarDAOMySQL();
+            //    dao = new CarDAOMySQL();
                 break;
             default:
         }
         return dao;
     }
+    * */
+
 }

@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presidents>
+    <president n="1">
+        <firstName>George</firstName>
+        <lastName>Washington</lastName>
+        <birthday>1732-02-22</birthday>
+        <inaugurationAge-Years>57</inaugurationAge-Years>
+        <inaugurationAge-Days>68</inaugurationAge-Days>
+    </president>
+    <president n="2">
+        <firstName>John</firstName>
+        <lastName>Adams</lastName>
+        <birthday>1735-10-30</birthday>
+        <inaugurationAge-Years>65</inaugurationAge-Years>
+        <inaugurationAge-Days>125</inaugurationAge-Days>
+    </president>
+    <president n="3">
+        <firstName>Thomas</firstName>
+        <lastName>Jefferson</lastName>
+        <birthday>1743-04-13</birthday>
+        <inaugurationAge-Years>57</inaugurationAge-Years>
+        <inaugurationAge-Days>325</inaugurationAge-Days>
+    </president>
+    <president n="4">
+        <firstName>James</firstName>
+        <lastName>Madison</lastName>
+        <birthday>1751-03-16</birthday>
+        <inaugurationAge-Years>57</inaugurationAge-Years>
+        <inaugurationAge-Days>353</inaugurationAge-Days>
+    </president>
+    <president n="5">
+        <firstName>James</firstName>
+        <lastName>Monroe</lastName>
+        <birthday>1758-04-28</birthday>
+        <inaugurationAge-Years>58</inaugurationAge-Years>
+        <inaugurationAge-Days>310</inaugurationAge-Days>
+    </president>
+    <president n="6">
+        <firstName>John Quincy</firstName>
+        <lastName>Adams</lastName>
+        <birthday>1767-07-11</birthday>
+        <inaugurationAge-Years>57</inaugurationAge-Years>
+        <inaugurationAge-Days>236</inaugurationAge-Days>
+    </president>
+    <president n="7">
+        <firstName>Andrew</firstName>
+        <lastName>Jackson</lastName>
+        <birthday>1767-03-15</birthday>
+        <inaugurationAge-Years>61</inaugurationAge-Years>
+        <inaugurationAge-Days>354</inaugurationAge-Days>
+    </president>
+    <president n="8">
+        <firstName>Martin</firstName>
+        <lastName>Van Buren</lastName>
+        <birthday>1782-12-05</birthday>
+        <inaugurationAge-Years>54</inaugurationAge-Years>
+        <inaugurationAge-Days>89</inaugurationAge-Days>
+    </president>
+    <president n="9">
+        <firstName>William Henry</firstName>
+        <lastName>Harrison</lastName>
+        <birthday>1773-02-09</birthday>
+        <inaugurationAge-Years>68</inaugurationAge-Years>
+        <inaugurationAge-Days>23</inaugurationAge-Days>
+    </president>
+    <president n="10">
+        <firstName>John</firstName>
+        <lastName>Tyler</lastName>
+        <birthday>1790-03-29</birthday>
+        <inaugurationAge-Years>51</inaugurationAge-Years>
+        <inaugurationAge-Days>6</inaugurationAge-Days>
+    </president>
+    <president n="11">
+        <firstName>James K.</firstName>
+        <lastName>Polk</lastName>
+        <birthday>1795-11-02</birthday>
+        <inaugurationAge-Years>49</inaugurationAge-Years>
+        <inaugurationAge-Days>123</inaugurationAge-Days>
+    </president>
+    <president n="12">
+        <firstName>Zachary</firstName>
+        <lastName>Taylor</lastName>
+        <birthday>1784-11-24</birthday>
+        <inaugurationAge-Years>64</inaugurationAge-Years>
+        <inaugurationAge-Days>100</inaugurationAge-Days>
+    </president>
+    <president n="13">
+        <firstName>Millard</firstName>
+        <lastName>Fillmore</lastName>
+        <birthday>1800-01-07</birthday>
+        <inaugurationAge-Years>50</inaugurationAge-Years>
+        <inaugurationAge-Days>183</inaugurationAge-Days>
+    </president>
+    <president n="14">
+        <firstName>Franklin</firstName>
+        <lastName>Pierce</lastName>
+        <birthday>1804-11-23</birthday>
+        <inaugurationAge-Years>48</inaugurationAge-Years>
+        <inaugurationAge-Days>101</inaugurationAge-Days>
+    </president>
+    <president n="15">
+        <firstName>James</firstName>
+        <lastName>Buchanan</lastName>
+        <birthday>1791-04-23</birthday>
+        <inaugurationAge-Years>65</inaugurationAge-Years>
+        <inaugurationAge-Days>315</inaugurationAge-Days>
+    </president>
+    <president n="16">
+        <firstName>Abraham</firstName>
+        <lastName>Lincoln</lastName>
+        <birthday>1809-02-12</birthday>
+        <inaugurationAge-Years>52</inaugurationAge-Years>
+        <inaugurationAge-Days>20</inaugurationAge-Days>
+    </president>
+    <president n="17">
+        <firstName>Andrew</firstName>
+        <lastName>Johnson</lastName>
+        <birthday>1808-12-29</birthday>
+        <inaugurationAge-Years>56</inaugurationAge-Years>
+        <inaugurationAge-Days>107</inaugurationAge-Days>
+    </president>
+    <president n="18">
+        <firstName>Ulysses S.</firstName>
+        <lastName>Grant</lastName>
+        <birthday>1822-04-27</birthday>
+        <inaugurationAge-Years>46</inaugurationAge-Years>
+        <inaugurationAge-Days>311</inaugurationAge-Days>
+    </president>
+    <president n="19">
+        <firstName>Rutherford B.</firstName>
+        <lastName>Hayes</lastName>
+        <birthday>1822-10-04</birthday>
+        <inaugurationAge-Years>54</inaugurationAge-Years>
+        <inaugurationAge-Days>151</inaugurationAge-Days>
+    </president>
+    <president n="20">
+        <firstName>James A.</firstName>
+        <lastName>Garfield</lastName>
+        <birthday>1831-11-19</birthday>
+        <inaugurationAge-Years>49</inaugurationAge-Years>
+        <inaugurationAge-Days>105</inaugurationAge-Days>
+    </president>
+    <president n="21">
+        <firstName>Chester A.</firstName>
+        <lastName>Arthur</lastName>
+        <birthday>1829-10-05</birthday>
+        <inaugurationAge-Years>51</inaugurationAge-Years>
+        <inaugurationAge-Days>349</inaugurationAge-Days>
+    </president>
+    <president n="22">
+        <firstName>Grover</firstName>
+        <lastName>Cleveland</lastName>
+        <birthday>1837-03-18</birthday>
+        <inaugurationAge-Years>47</inaugurationAge-Years>
+        <inaugurationAge-Days>351</inaugurationAge-Days>
+    </president>
+    <president n="23">
+        <firstName>Benjamin</firstName>
+        <lastName>Harrison</lastName>
+        <birthday>1833-08-20</birthday>
+        <inaugurationAge-Years>55</inaugurationAge-Years>
+        <inaugurationAge-Days>196</inaugurationAge-Days>
+    </president>
+    <president n="24">
+        <firstName>Grover</firstName>
+        <lastName>Cleveland</lastName>
+        <birthday>1837-03-18</birthday>
+        <inaugurationAge-Years>55</inaugurationAge-Years>
+        <inaugurationAge-Days>351</inaugurationAge-Days>
+    </president>
+    <president n="25">
+        <firstName>William</firstName>
+        <lastName>McKinley</lastName>
+        <birthday>1843-01-29</birthday>
+        <inaugurationAge-Years>54</inaugurationAge-Years>
+        <inaugurationAge-Days>34</inaugurationAge-Days>
+    </president>
+    <president n="26">
+        <firstName>Theodore</firstName>
+        <lastName>Roosevelt</lastName>
+        <birthday>1858-10-27</birthday>
+        <inaugurationAge-Years>42</inaugurationAge-Years>
+        <inaugurationAge-Days>322</inaugurationAge-Days>
+    </president>
+    <president n="27">
+        <firstName>William Howard</firstName>
+        <lastName>Taft</lastName>
+        <birthday>1857-09-15</birthday>
+        <inaugurationAge-Years>51</inaugurationAge-Years>
+        <inaugurationAge-Days>170</inaugurationAge-Days>
+    </president>
+    <president n="28">
+        <firstName>Woodrow</firstName>
+        <lastName>Wilson</lastName>
+        <birthday>1856-12-28</birthday>
+        <inaugurationAge-Years>56</inaugurationAge-Years>
+        <inaugurationAge-Days>66</inaugurationAge-Days>
+    </president>
+    <president n="29">
+        <firstName>Warren G.</firstName>
+        <lastName>Harding</lastName>
+        <birthday>1865-11-02</birthday>
+        <inaugurationAge-Years>55</inaugurationAge-Years>
+        <inaugurationAge-Days>122</inaugurationAge-Days>
+    </president>
+    <president n="30">
+        <firstName>Calvin</firstName>
+        <lastName>Coolidge</lastName>
+        <birthday>1872-07-04</birthday>
+        <inaugurationAge-Years>51</inaugurationAge-Years>
+        <inaugurationAge-Days>29</inaugurationAge-Days>
+    </president>
+    <president n="31">
+        <firstName>Herbert</firstName>
+        <lastName>Hoover</lastName>
+        <birthday>1874-08-10</birthday>
+        <inaugurationAge-Years>54</inaugurationAge-Years>
+        <inaugurationAge-Days>206</inaugurationAge-Days>
+    </president>
+    <president n="32">
+        <firstName>Franklin D.</firstName>
+        <lastName>Roosevelt</lastName>
+        <birthday>1882-01-30</birthday>
+        <inaugurationAge-Years>51</inaugurationAge-Years>
+        <inaugurationAge-Days>33</inaugurationAge-Days>
+    </president>
+    <president n="33">
+        <firstName>Harry S.</firstName>
+        <lastName>Truman</lastName>
+        <birthday>1884-05-08</birthday>
+        <inaugurationAge-Years>60</inaugurationAge-Years>
+        <inaugurationAge-Days>339</inaugurationAge-Days>
+    </president>
+    <president n="34">
+        <firstName>Dwight D.</firstName>
+        <lastName>Eisenhower</lastName>
+        <birthday>1890-10-14</birthday>
+        <inaugurationAge-Years>62</inaugurationAge-Years>
+        <inaugurationAge-Days>98</inaugurationAge-Days>
+    </president>
+    <president n="35">
+        <firstName>John F.</firstName>
+        <lastName>Kennedy</lastName>
+        <birthday>1917-05-29</birthday>
+        <inaugurationAge-Years>43</inaugurationAge-Years>
+        <inaugurationAge-Days>236</inaugurationAge-Days>
+    </president>
+    <president n="36">
+        <firstName>Lyndon B.</firstName>
+        <lastName>Johnson</lastName>
+        <birthday>1908-08-27</birthday>
+        <inaugurationAge-Years>55</inaugurationAge-Years>
+        <inaugurationAge-Days>87</inaugurationAge-Days>
+    </president>
+    <president n="37">
+        <firstName>Richard</firstName>
+        <lastName>Nixon</lastName>
+        <birthday>1913-01-09</birthday>
+        <inaugurationAge-Years>56</inaugurationAge-Years>
+        <inaugurationAge-Days>11</inaugurationAge-Days>
+    </president>
+    <president n="38">
+        <firstName>Gerald</firstName>
+        <lastName>Ford</lastName>
+        <birthday>1913-07-14</birthday>
+        <inaugurationAge-Years>61</inaugurationAge-Years>
+        <inaugurationAge-Days>26</inaugurationAge-Days>
+    </president>
+    <president n="39">
+        <firstName>Jimmy</firstName>
+        <lastName>Carter</lastName>
+        <birthday>1924-10-01</birthday>
+        <inaugurationAge-Years>52</inaugurationAge-Years>
+        <inaugurationAge-Days>111</inaugurationAge-Days>
+    </president>
+    <president n="40">
+        <firstName>Ronald</firstName>
+        <lastName>Reagan</lastName>
+        <birthday>1911-02-06</birthday>
+        <inaugurationAge-Years>69</inaugurationAge-Years>
+        <inaugurationAge-Days>348</inaugurationAge-Days>
+    </president>
+    <president n="41">
+        <firstName>George H. W.</firstName>
+        <lastName>Bush</lastName>
+        <birthday>1924-06-12</birthday>
+        <inaugurationAge-Years>64</inaugurationAge-Years>
+        <inaugurationAge-Days>222</inaugurationAge-Days>
+    </president>
+    <president n="42">
+        <firstName>Bill</firstName>
+        <lastName>Clinton</lastName>
+        <birthday>1946-08-19</birthday>
+        <inaugurationAge-Years>46</inaugurationAge-Years>
+        <inaugurationAge-Days>154</inaugurationAge-Days>
+    </president>
+    <president n="43">
+        <firstName>George W.</firstName>
+        <lastName>Bush</lastName>
+        <birthday>1946-07-06</birthday>
+        <inaugurationAge-Years>54</inaugurationAge-Years>
+        <inaugurationAge-Days>198</inaugurationAge-Days>
+    </president>
+    <president n="44">
+        <firstName>Barack</firstName>
+        <lastName>Obama</lastName>
+        <birthday>1961-08-04</birthday>
+        <inaugurationAge-Years>47</inaugurationAge-Years>
+        <inaugurationAge-Days>169</inaugurationAge-Days>
+    </president>
+    <president n="45">
+        <firstName>Donald</firstName>
+        <lastName>Trump</lastName>
+        <birthday>1946-06-14</birthday>
+        <inaugurationAge-Years>70</inaugurationAge-Years>
+        <inaugurationAge-Days>220</inaugurationAge-Days>
+    </president>
+    <president n="46">
+        <firstName>Joe</firstName>
+        <lastName>Biden</lastName>
+        <birthday>1942-11-20</birthday>
+        <inaugurationAge-Years>78</inaugurationAge-Years>
+        <inaugurationAge-Days>61</inaugurationAge-Days>
+    </president>
+</presidents>
