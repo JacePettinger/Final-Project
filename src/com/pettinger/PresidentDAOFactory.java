@@ -1,30 +1,22 @@
 package com.pettinger;
 
 public class PresidentDAOFactory {
-    /*
-    *
-    *  private static final String DAO_SOURCE = "CSV";
+   private static final String DAO_SOURCE = "CSV";
 
-    public static CarDAO getCarDAO(){
-    * */
-    /*
-    change car to president
-    *
-    *  CarDAO dao = null;
+    public static PresidentDAO getPresidentDAO(){
+     PresidentDAO dao = null;
         switch(DAO_SOURCE){
             case "CSV":
-                dao = new CarDAOCSV();
+                dao = new PresidentDAOCSV();
                 break;
             case "XML":
-               dao = new CarDAOXML();
+           //    dao = new PresidentDAOXML();
                 break;
             case "MYSQL":
-            //    dao = new CarDAOMySQL();
+            //    dao = new PresidentDAOMySQL();
                 break;
             default:
         }
         return dao;
     }
-    * */
-
 }

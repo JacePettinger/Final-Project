@@ -1,7 +1,7 @@
 package com.pettinger;
 
 public class CarDAOFactory {
-    private static final String DAO_SOURCE = "CSV";
+    private static final String DAO_SOURCE = "MYSQL";
 
     public static CarDAO getCarDAO(){
         CarDAO dao = null;

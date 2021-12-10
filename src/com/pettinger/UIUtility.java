@@ -17,7 +17,7 @@ public class UIUtility {
      * @return the user's response
      */
     public static int showMenuOptions(String menuTitle, String prompt, String[] menuOptions, Scanner in, ResourceBundle messages) {
-        showMenuTitle(menuTitle);
+        showMenuTitle().accept(menuTitle);
         int count = 1;
         for (String menuOption : menuOptions) {
             System.out.println(count++ + ": " + menuOption);
@@ -31,11 +31,9 @@ public class UIUtility {
 
     /**
      * Displays a properly formatted menu title.
-     *
-     * @param menuTitle the text of the title
      */
-    public static void showMenuTitle(String menuTitle) {
-        System.out.println("\n" + "xxx " + menuTitle + " xxx\n");
+    public static Consumer<String> showMenuTitle(){
+        return (menuTitle) -> System.out.println("\n" + "xxx " + menuTitle + " xxx\n");
     }
 
     /*
@@ -56,7 +54,7 @@ public class UIUtility {
                 throw new NumberFormatException();
             }
         } catch (NumberFormatException e) {
-            showErrorMessage("Invalid input", in, messages);
+            showErrorMessage(messages.getString("invalid-input"), in, messages);
         }
         return intInput;
     }
@@ -71,28 +69,24 @@ public class UIUtility {
      */
 
     public static void showErrorMessage(String message, Scanner in, ResourceBundle messages) {
-        System.out.println("ERROR: " + message);
-        pressEnterToContinue(in, messages);
+        System.out.println(messages.getString("error") + message);
+        pressEnterToContinue().accept(in, messages);
     }
 
     /**
      * Displays a wait prompt and waits for the user to hit the enter key.
-     *
-     * @param in a Scanner object
-     * @param messages a ResourceBundle object
      */
-
-    public static void pressEnterToContinue(Scanner in, ResourceBundle messages) {
-        System.out.print("\nPress Enter to continue... ");
-        in.nextLine();
+    public static BiConsumer<Scanner, ResourceBundle> pressEnterToContinue() {
+        return (in, messages) -> {
+            System.out.print("\n" + messages.getString("press-enter"));
+            in.nextLine();
+        };
     }
 
     /**
      * Displays the supplied title text in a consistently formatted manner.
-     *
-     * @param title The text to display
      */
-    public static void showSectionTitle(String title){
-        System.out.println( "\n" + "*** " + title + " ***\n");
+    public static Consumer<String> showSectionTitle(){
+        return (title) -> System.out.println("\\n\" + \"*** \" + title + \" ***\\n");
     }
 }

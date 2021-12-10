@@ -10,7 +10,7 @@ public class FindCar implements CarDataHandler{
         try {
             List<Car> cars = dao.getAllCars();
             if(cars != null) {
-                String licensePlate = Helpers.getUserString("Enter the license plate", in);
+                String licensePlate = Helpers.getUserString().apply("Enter the license plate", in);
                 System.out.println("\nSearching for license plate " + licensePlate + "...");
                 Car car = dao.getCarByLicensePlate(licensePlate);
                 if (car == null) {

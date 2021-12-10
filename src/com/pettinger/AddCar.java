@@ -13,14 +13,14 @@ public class AddCar implements CarDataHandler {
         boolean needed = true;
         while(needed) {
             try {
-                car.setLicensePlate(Helpers.getUserString(messages.getString("enter-license-plate"), in));
+                car.setLicensePlate(Helpers.getUserString().apply(messages.getString("enter-license-plate"), in));
                 needed = false;
             } catch (IllegalArgumentException e) {
                 UIUtility.showErrorMessage(e.getMessage(), in, messages);
             }
         }
-        car.setMake(Helpers.getUserString(messages.getString("enter-make"), in));
-        car.setModel(Helpers.getUserString(messages.getString("enter-model"), in));
+        car.setMake(Helpers.getUserString().apply(messages.getString("enter-make"), in));
+        car.setModel(Helpers.getUserString().apply(messages.getString("enter-model"), in));
         String prompt = messages.getString("enter-model-year");
         int modelYear;
         needed = true;

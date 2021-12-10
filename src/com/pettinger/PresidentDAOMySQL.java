@@ -2,10 +2,7 @@ package com.pettinger;
 
 import java.util.List;
 
-public class PresidentDAOCSV implements PresidentDAO {
-    private static final String FILE_NAME = "presidents.csv";
-    private static List<President> presidents;
-
+public class PresidentDAOMySQL implements PresidentDAO{
     @Override
     public void readInData() throws DataException {
 

@@ -39,12 +39,12 @@ public class UpdateCar implements CarDataHandler {
         System.out.println("Updating Car: " + car);
         System.out.println("License Plate: " + car.getLicensePlate());
         System.out.println("Current Make: " + car.getMake());
-        String updatedMake = Helpers.getUserString("Enter the new make" + current, in);
+        String updatedMake = Helpers.getUserString().apply("Enter the new make" + current, in);
         if (!updatedMake.isBlank()) {
             updated.setMake(updatedMake);
         }
         System.out.println("Current Model: " + car.getModel());
-        String updatedModel = Helpers.getUserString("Enter the new model" + current, in);
+        String updatedModel = Helpers.getUserString().apply("Enter the new model" + current, in);
         if (!updatedModel.isBlank()) {
             updated.setModel(updatedModel);
         }

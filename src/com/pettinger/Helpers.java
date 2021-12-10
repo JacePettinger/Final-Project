@@ -1,31 +1,42 @@
 package com.pettinger;
 
+import java.util.List;
+import java.util.Map;
 import java.util.ResourceBundle;
 import java.util.Scanner;
+import java.util.function.BiFunction;
 
 public class Helpers {
 
     /** Prints the contents of an array of integers
      * @param arr an array of integers
      */
-    public static void printArray(int[] arr) {
+    public static <T>void printArray(T[] arr) {
         for (int i = 0; i < arr.length; i++) {
             System.out.print(arr[i] + " ");
         }
         System.out.println();
     }
 
+    public static <T>void printList(List<T> list) {
+        list.forEach(System.out::println);
+    }
+
+    public static <T>void printMap(Map<T, T> map) {
+        map.keySet().forEach(System.out::println);
+    }
+
     /**
      * Prompts the user for a String and returns whatever was entered.
      *
-     * @param prompt the prompt text for the user
      * @return the String entered by the user
      */
-    public static String getUserString(String prompt, Scanner in){
-        System.out.print(prompt + ": ");
-        return in.nextLine().trim();
+    public static BiFunction<String, Scanner, String> getUserString() {
+        return(prompt, in) -> {
+            System.out.print(prompt + ": ");
+            return in.nextLine().trim();
+        };
     }
-
 
     /**
      * Prompts the user for a whole number between the low bound (inclusive) and
@@ -43,7 +54,7 @@ public class Helpers {
         while (needed) {
             value = getUserInt(prompt, in, messages);
             if (value < lowBound || value > highBound) {
-                UIUtility.showErrorMessage("Input not in range " + lowBound + " - " + highBound + ".", in, messages);
+                UIUtility.showErrorMessage(messages.getString("not-in-range-error") + " " + lowBound + " - " + highBound + ".", in, messages);
             } else {
                 needed = false;
             }
@@ -71,7 +82,7 @@ public class Helpers {
                 value = Integer.parseInt(input);
                 needed = false;
             }catch(NumberFormatException nfe){
-                UIUtility.showErrorMessage("Invalid integer", in, messages);
+                UIUtility.showErrorMessage(messages.getString("int-error"), in, messages);
             }
         }
         return value;
